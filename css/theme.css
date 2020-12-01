@@ -75,6 +75,7 @@ label{
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 1em .5em;
 }
 .container .login{
     grid-column-start: 2;
@@ -86,4 +87,15 @@ label{
 color:white;
 padding: .5em;
 height: auto;
+}
+
+.container.container-movies{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.poster{
+    margin: .5em;
+}
+.poster img{
+    width: 100%;
 }
