@@ -10,6 +10,14 @@ header{
         align-items: center;
 
 }
+header.back{
+    background-color: gray;
+    margin-top: .5em;
+    color: goldenrod;
+}
+.back a{
+        color: goldenrod;
+}
 .links{
     align-items: center;
     display: flex;
@@ -88,7 +96,11 @@ color:white;
 padding: .5em;
 height: auto;
 }
-
+.container-comment .comment-form{
+    grid-column-start: 1;
+    padding: 2em;
+    margin-top: 1em;
+}
 .container.container-movies{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     
